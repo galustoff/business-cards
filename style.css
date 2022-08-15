@@ -70,16 +70,22 @@
   height: 30px;
   box-sizing: border-box;
   border: 1px solid #737373;
-  background-color: transparent;
   font-weight: 300;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.05em;
+  background-color: transparent;
+  color: #000;
+  transform: scale(1.0);
+  transition-property: color, background-color, transform;
+  transition-duration: 150ms;
+  transition-timing-function: ease;
 }
 
 .card__btn:hover {
   background-color: #000;
   color: #fff;
+  transform: scale(1.06);
   border: none;
   cursor: pointer;
 }
